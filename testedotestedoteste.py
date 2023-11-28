@@ -1,1 +1,1 @@
-#Apenas um gay testando como funciona o git
+#Apenas testando como funciona o git
