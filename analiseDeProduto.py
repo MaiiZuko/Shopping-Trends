@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 file_path = 'shopping_trends.csv'
 df = pd.read_csv(file_path)
