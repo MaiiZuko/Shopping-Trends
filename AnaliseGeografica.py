@@ -2,7 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt 
 
-arq = pd.read_csv('shopping_trends_updated.csv')
+arq = pd.read_csv('shopping_trends.csv')
 
 
 venda_por_estado = arq.groupby('Location')['Purchase Amount (USD)'].sum()
