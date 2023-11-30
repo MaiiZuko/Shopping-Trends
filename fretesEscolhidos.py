@@ -4,12 +4,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("shopping_trends.csv")
+st = pd.read_csv("shopping_trends.csv")
 
 sns.set(style="whitegrid")
 
 plt.figure(figsize=(12, 8))
-sns.countplot(x="Shipping Type", hue="Payment Method", data=df)
+sns.countplot(x="Shipping Type", hue="Payment Method", data=st)
 
 plt.title("Relação entre Tipos de Frete e Formas de Pagamento")
 plt.xlabel("Tipos de Frete")
